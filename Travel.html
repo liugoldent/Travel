@@ -1,0 +1,343 @@
+<!DOCTYPE HTML>
+	<html long="zh-tw">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./Travel.css"> 
+    <title> Travel Guide </title>
+
+<!-- 新 Bootstrap4 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+<!-- jQuery文件。-->
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>  
+<!-- popper.min.js  -->
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!-- for latest icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<!-- Use Vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+
+</head>
+        
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top container-fluid"> 
+                <a class="navbar-brand" href="#section1" style="font-family:serif">Travel Guide</a>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                        <button id="KYOTOBut" v-on:click="OpenKyotoContent"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        KYOTO</a>
+                <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#DAY1">DAY1</a>
+                        <a class="dropdown-item" href="#DAY2">DAY2</a>
+                        <a class="dropdown-item" href="#DAY3">DAY3</a>
+                        <a class="dropdown-item" href="#DAY4">DAY4</a>
+                        <a class="dropdown-item" href="#DAY5">DAY5</a>
+
+                </div>
+                            </button>
+                </li>
+                <li class="nav-item">
+                    <button id="OSAKABut" v-on:click="OpenOsakaContent"><a class="nav-link" id="OSAKA">OSAKA</a></button>
+                </li>
+            </ul>
+    </nav>
+        <!--DAY1 DOWN-->
+    <div id="DAY1">
+            <div id="Day1Text">
+                <h1>KANSAI Airport</h1>
+                <h1>x</h1>
+                <h1>Check In</h1>
+                <br><br><br>
+                <button id="Day1Control" v-on:click="DisplayOpen"><i class="fas fa-map-marker-alt fa-5x"></i></button>
+
+
+            </div>
+    </div>
+
+    <div id="day1map">
+        <div class="row">
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                <br>
+                <h1>KANSAI AIRPORT</h1>
+                <br>
+                <img class="Day1IMG" v-bind:src="KANSAImgLink">
+                <br><br>
+                <div id="KANSAIMAP">
+                        <iframe class="Day1iframeMap" v-bind:src="KANSAIMapLink"></iframe>                    
+                    </div>
+                </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <br>
+                    <h1>Ya Do!</h1>
+                    <br>
+                    <img class="Day1IMG" v-bind:src="YaDoImgLink">
+                    <br><br>
+                    <div id="YADOMAP">
+                        <iframe class="Day1iframeMap" v-bind:src="YADOMapLink"></iframe>                    
+                    </div>    
+                </div>
+          </div>
+      </div>  
+        <!--DAY1 UP-->
+
+        <!--DAY2 DOWN-->
+    <div id="DAY2">
+        <div id="Day2Text">
+            <h1>Fushimi-Inari</h1>
+            <h1>x</h1>
+            <h1>Kaizu Osaki</h1>
+            <br><br><br>
+            <button id="Day2Control" v-on:click="DisplayOpen"><i class="fas fa-map-marker-alt fa-5x"></i></button>
+
+
+        </div>
+</div>
+
+<div id="day2map">
+    <div class="row">
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <br>
+            <h1>Fushimi-Inari</h1>
+            <br>
+            <img class="Day2IMG" v-bind:src="FushimiImgLink">
+            <br><br>
+            <div id="Fushimi">
+                    <iframe class="Day2iframeMap" v-bind:src="FushimiMapLink"></iframe>                    
+                </div>
+            </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                <br>
+                <h1>Kaizu Osaki</h1>
+                <br>
+                <img class="Day2IMG" v-bind:src="KaizuImgLink">
+                <br><br>
+                <div id="Kaizu">
+                    <iframe class="Day2iframeMap" v-bind:src="KaizuMapLink"></iframe>                    
+                </div>    
+            </div>
+      </div>
+  </div>  
+        <!--DAY2 UP-->
+
+        <!--DAY3 DOWN-->
+    <div id="DAY3">
+        <div id="Day3Text">
+            <h1>Kinkakuji</h1>
+            <h1>x</h1>
+            <h1>Renge</h1>
+            <br><br><br>
+            <button id="Day3Control" v-on:click="DisplayOpen"><i class="fas fa-map-marker-alt fa-5x"></i></button>
+
+
+        </div>
+</div>
+
+<div id="day3map">
+    <div class="row">
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <br>
+            <h1>Kinkakuji</h1>
+            <br>
+            <img class="Day3IMG" v-bind:src="KinkakuImgLink">
+            <br><br>
+            <div>
+                    <iframe class="Day3iframeMap" v-bind:src="KinkakuMapLink"></iframe>                    
+                </div>
+            </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                <br>
+                <h1>Renge</h1>
+                <br>
+                <img class="Day3IMG" v-bind:src="RengeImgLink">
+                <br><br>
+                <div>
+                    <iframe class="Day3iframeMap" v-bind:src="RengeMapLink"></iframe>                    
+                </div>    
+            </div>
+      </div>
+  </div>  
+        <!--DAY3 UP-->
+ 
+    
+        <!--DAY4 DOWN-->
+<div id="DAY4">
+    <div id="Day4Text">
+        <h1>Kiyomizu</h1>
+        <h1>x</h1>
+        <h1>Nijojocho</h1>
+        <br><br><br>
+        <button id="Day4Control" v-on:click="DisplayOpen"><i class="fas fa-map-marker-alt fa-5x"></i></button>
+
+
+    </div>
+</div>
+
+<div id="day4map">
+<div class="row">
+
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <br>
+        <h1>Kiyomizu</h1>
+        <br>
+        <img class="Day4IMG" v-bind:src="KiyomizuImgLink">
+        <br><br>
+        <div>
+                <iframe class="Day4iframeMap" v-bind:src="KiyomizuMapLink"></iframe>                    
+            </div>
+        </div>
+
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <br>
+            <h1>Nijojocho</h1>
+            <br>
+            <img class="Day4IMG" v-bind:src="NijojochoImgLink">
+            <br><br>
+            <div>
+                <iframe class="Day4iframeMap" v-bind:src="NijojochoMapLink"></iframe>                    
+            </div>    
+        </div>
+  </div>
+</div>  
+    <!--DAY4 UP-->
+
+    <!--DAY5 DOWN-->
+<div id="DAY5">
+    <div id="Day5Text">
+        <h1>Arashiyama</h1>
+        <h1>x</h1>
+        <h1>Yasaka-Jinja</h1>
+        <br><br><br>
+        <button id="Day5Control" v-on:click="DisplayOpen"><i class="fas fa-map-marker-alt fa-5x"></i></button>
+
+
+    </div>
+</div>
+
+<div id="day5map">
+<div class="row">
+
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <br>
+        <h1>Arashiyama</h1>
+        <br>
+        <img class="Day5IMG" v-bind:src="ArashiyamaImgLink">
+        <br><br>
+        <div>
+                <iframe class="Day5iframeMap" v-bind:src="ArashiyamaMapLink"></iframe>                    
+            </div>
+        </div>
+
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <br>
+            <h1>Yasaka-Jinja</h1>
+            <br>
+            <img class="Day5IMG" v-bind:src="YasakaImgLink">
+            <br><br>
+            <div>
+                <iframe class="Day5iframeMap" v-bind:src="YasakaMapLink"></iframe>                    
+            </div>    
+        </div>
+  </div>
+</div>  
+    <!--DAY5 UP-->
+    
+    <!--OSAKA DOWN-->
+    <div id="OSAKACont">
+<div id="DAY6">
+    <div id="Day6Text">
+        <br><br><br>
+        <h1>OSAKA</h1>
+        <br><br><br>
+        <button id="Day6Control" v-on:click="DisplayOpen"><i class="fas fa-map-marker-alt fa-5x"></i></button>
+
+
+    </div>
+</div>
+
+<div id="day6map">
+<div class="row">
+
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <br>
+        <h1>Dotonbori</h1>
+        <br>
+        <img class="Day6IMG" v-bind:src="DotonboriImgLink">
+        <br><br>
+        <div>
+                <iframe class="Day5iframeMap" v-bind:src="DotonboriMapLink"></iframe>                    
+            </div>
+        </div>
+
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <br>
+            <h1>Kaigandori</h1>
+            <br>
+            <img class="Day6IMG" v-bind:src="KaigandoriImgLink">
+            <br><br>
+            <div>
+                <iframe class="Day6iframeMap" v-bind:src="KaigandoriMapLink"></iframe>                    
+            </div>    
+        </div>
+  </div>
+    
+<div class="row">
+
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <br>
+        <h1>Senyo</h1>
+        <br>
+        <img class="Day6IMG" v-bind:src="SenyoImgLink">
+        <br><br>
+        <div>
+                <iframe class="Day5iframeMap" v-bind:src="SenyoMapLink"></iframe>                    
+            </div>
+        </div>
+
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <br>
+            <h1>OsakaJo</h1>
+            <br>
+            <img class="Day6IMG" v-bind:src="OsakaJoImgLink">
+            <br><br>
+            <div>
+                <iframe class="Day6iframeMap" v-bind:src="OsakaJoMapLink"></iframe>                    
+            </div>    
+        </div>
+  </div>
+</div>  
+        </div>
+    <!--OSAKA UP-->
+
+
+
+    <!--Contact Me -->
+    <div id="section5">
+            <div id="section5_text">
+                        <h1>Contact Me</h1>
+                        <hr>
+            </div>
+            <div id="section5_icon">
+                <a href="mailto:liugoldent@gmail.com" style="color:antiquewhite"><i class="fas fa-envelope fa-4x"></i></a>
+                <a href="https://github.com/liugoldent" style="color:antiquewhite"><i class="fab fa-github-square fa-4x"></i></a>
+                <a href="https://www.linkedin.com/in/guan-ting-liu-2016a1109/" style="color:antiquewhite"><i class="fab fa-linkedin fa-4x"></i></a>
+            </div>
+    </div>
+
+   
+    <footer id="foorter">
+        <div id="copyright">
+            <p>Copyright ©   Guan-Ting Liu   All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="Travel.js"></script>
+</body>
+</html>

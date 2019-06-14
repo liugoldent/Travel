@@ -1,0 +1,378 @@
+html {
+    scroll-behavior: smooth;
+}
+*{
+    font-family: serif;
+}
+
+body{
+    position: relative;
+}
+
+/*  Day1 Desgin 第一個內容區背景 */
+body #DAY1{
+    background-image:url(./img/day1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    height: 500px;
+    width: auto;
+}
+body button#Day1Control{
+    background-color: transparent;
+    outline: none;
+    border:none;
+}
+
+/*  Day1 Desgin 第一天的圖片上內容 */
+#Day1Text{
+    position:relative;
+    margin:0px auto;
+    color:antiquewhite;
+    text-align:center;
+    top:25%;
+}
+
+#Day1Text i{
+    color:white;
+}
+/*  Day1 Desgin 第一天的地圖 */
+#day1map{
+    background-color: white;
+    text-align: center;
+    height:auto;
+    width:auto;
+    display:none;
+}
+
+.col-12,.col-sm-12,.col-md-12,.col-lg-6 *{
+    position: relative;
+    margin:0px auto;
+}
+.Day1iframeMap{
+    width:700px;
+    height:450px;
+    border-radius: 10px;
+}
+
+.Day1IMG{
+    border-radius: 10px;
+}
+
+/* Day 1  內容*/
+
+
+/*  Day2 Desgin 第一個內容區背景 */
+body #DAY2{
+    background-image:url(./img/day2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    height: 500px;
+    width: auto;
+}
+body button#Day2Control{
+    background-color: transparent;
+    outline: none;
+    border:none;
+}
+
+/*  Day2 Desgin 第一天的圖片上內容 */
+#Day2Text{
+    position:relative;
+    margin:0px auto;
+    color:black;
+    text-align:center;
+    top:25%;
+}
+
+#Day2Text i{
+    color:black;
+}
+/*  Day2 Desgin 第一天的地圖 */
+#day2map{
+    background-color: white;
+    text-align: center;
+    height:auto;
+    width:auto;
+    display:none;
+}
+
+
+.Day2iframeMap{
+    width:700px;
+    height:450px;
+    border-radius: 10px;
+}
+
+.Day2IMG{
+    border-radius: 10px;
+}
+
+/* Day 2  內容*/
+
+
+/*  Day3 Desgin 第一個內容區背景 */
+body #DAY3{
+    background-image:url(./img/day3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    height: 500px;
+    width: auto;
+}
+body button#Day3Control{
+    background-color: transparent;
+    outline: none;
+    border:none;
+}
+
+/*  Day3 Desgin 第一天的圖片上內容 */
+#Day3Text{
+    position:relative;
+    margin:0px auto;
+    color:whitesmoke;
+    text-align:center;
+    top:25%;
+}
+
+#Day3Text i{
+    color:whitesmoke;
+}
+/*  Day3 Desgin 第一天的地圖 */
+#day3map{
+    background-color: white;
+    text-align: center;
+    height:auto;
+    width:auto;
+    display:none;
+}
+
+
+.Day3iframeMap{
+    width:700px;
+    height:450px;
+    border-radius: 10px;
+}
+
+.Day3IMG{
+    border-radius: 10px;
+}
+
+/* Day3  內容*/
+
+
+/*  Day4 Desgin 第一個內容區背景 */
+body #DAY4{
+    background-image:url(./img/day4.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    height: 500px;
+    width: auto;
+}
+body button#Day4Control{
+    background-color: transparent;
+    outline: none;
+    border:none;
+}
+/*  Day4 Desgin 第四天的圖片上內容 */
+#Day4Text{
+    position:relative;
+    margin:0px auto;
+    color:black;
+    text-align:center;
+    top:25%;
+}
+
+#Day4Text i{
+    color:black;
+}
+/*  Day4 Desgin 第一天的地圖 */
+#day4map{
+    background-color: white;
+    text-align: center;
+    height:auto;
+    width:auto;
+    display:none;
+}
+
+
+.Day4iframeMap{
+    width:700px;
+    height:450px;
+    border-radius: 10px;
+}
+
+.Day4IMG{
+    border-radius: 10px;
+}
+
+/* Day4  內容*/
+
+/*  Day5 Desgin 第一個內容區背景 */
+body #DAY5{
+    background-image:url(./img/day5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    height: 500px;
+    width: auto;
+}
+body button#Day5Control{
+    background-color: transparent;
+    outline: none;
+    border:none;
+}
+/*  Day5 Desgin 第四天的圖片上內容 */
+#Day5Text{
+    position:relative;
+    margin:0px auto;
+    color:white;
+    text-align:center;
+    top:25%;
+}
+
+#Day5Text i{
+    color:white;
+}
+/*  Day5 Desgin 第一天的地圖 */
+#day5map{
+    background-color: white;
+    text-align: center;
+    height:auto;
+    width:auto;
+    display:none;
+}
+
+
+.Day5iframeMap{
+    width:700px;
+    height:450px;
+    border-radius: 10px;
+}
+
+.Day5IMG{
+    border-radius: 10px;
+}
+
+/* Day5  內容*/
+
+
+
+
+/*  Day6 <OSAKA> Desgin 第一個內容區背景 */
+
+button#OSAKABut{
+    background-color: transparent;
+    outline: none;
+    border:none;
+}
+
+#OSAKACont{
+    display: none;
+}
+
+body #DAY6{
+    background-image:url(./img/day6.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    height: 500px;
+    width: auto;
+}
+body button#Day6Control,button#KYOTOBut{
+    background-color: transparent;
+    outline: none;
+    border:none;
+}
+/*  Day6 Desgin 第四天的圖片上內容 */
+#Day6Text{
+    position:relative;
+    margin:0px auto;
+    color:black;
+    text-align:center;
+    top:25%;
+}
+
+#Day6Text i{
+    color:black;
+}
+/*  Day5 Desgin 第一天的地圖 */
+#day6map{
+    background-color: white;
+    text-align: center;
+    height:auto;
+    width:auto;
+    display:none;
+}
+
+
+.Day6iframeMap{
+    width:700px;
+    height:450px;
+    border-radius: 10px;
+}
+
+.Day6IMG{
+    border-radius: 10px;
+}
+
+/* Day6  內容*/
+
+body #section5{
+    background-image:url(https://i.imgur.com/WiHcgRV.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    height: 400px;;
+    max-width: 100%;
+}
+
+#section5_text{
+    position:relative;
+    margin:0px auto;
+    color:antiquewhite;
+    text-align:center;
+    top:25%;
+    word-spacing:10px;
+}
+
+#section5_icon{
+    position:relative;
+    margin:0px auto;
+    color:antiquewhite;
+    text-align:center;
+    top:25%;
+    word-spacing:20px;
+}
+
+
+
+
+
+#foorter{
+    background-color:black;
+    height:100px;
+    max-width: 100%;
+    position:relative;
+    margin:0px auto;
+    color:antiquewhite;
+    text-align:center;
+}
+
+#copyright{
+    position:relative;
+    top:30%;
+}
+
+#section5_icon *:hover{
+    color:peachpuff;
+}
