@@ -5,5 +5,4 @@ KYOTO and OSAKA Travel
 
 ## 連結（Links）
 
-1. [Travel Guide](https://liugoldent.github.io/Travel/Travel.html)
-
+- [X] [一、TRAVEL GUIDE](https://github.com/kdchang/reactjs101/tree/master/Ch01)
