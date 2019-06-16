@@ -5,10 +5,10 @@ KYOTO and OSAKA Travel
 
 ## 連結（Links）
 
-- [X] [一、TRAVEL GUIDE](https://github.com/kdchang/reactjs101/tree/master/Ch01)
+- [X] [一、TRAVEL GUIDE](https://liugoldent.github.io/Travel/Travel.html)
 
 
 ## Using
 
-- [X] [一、Vue.js]
-- [X] [二、Google Maps Embed Api]
+- [X] [Vue.js]
+- [X] [Google Maps Embed Api]
