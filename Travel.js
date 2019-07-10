@@ -1,7 +1,7 @@
 var w = $(window).width();
 alert(w);
-//var width = document.body.clientWidth;
-//console.log(width);
+var widths = document.body.clientWidth;
+alert(widths);
 //alert(width);
 $('.row').css('width',w);
 
