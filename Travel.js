@@ -11,7 +11,7 @@ if(w<750){
     $('img').css('width', RWDImg)
     $('iframe').css('width', RWDImg)
 }else if (w==980){
-    
+    $('#section5').css('width',w)
 }
 
 var OpenKyoto=new Vue({
