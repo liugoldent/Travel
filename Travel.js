@@ -1,3 +1,19 @@
+var w = $(window).width();
+console.log(w);
+//var width = document.body.clientWidth;
+//console.log(width);
+//alert(width);
+$('.row').css('width',w);
+
+var RWDImg= (w-50);
+console.log(RWDImg)
+if(w<750){
+    $('img').css('width', RWDImg)
+    $('iframe').css('width', RWDImg)
+}else if (w==980){
+    
+}
+
 var OpenKyoto=new Vue({
     el:"#KYOTOBut",
     data:{},
