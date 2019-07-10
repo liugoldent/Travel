@@ -1,8 +1,8 @@
 var w = $(window).width();
-alert(w);
-var widths = document.body.clientWidth;
-alert(widths);
-//alert(width);
+//alert(w);
+console.log(w);
+//var widths = document.body.clientWidth;
+//alert(widths);
 $('.row').css('width',w);
 
 var RWDImg= (w-50);
