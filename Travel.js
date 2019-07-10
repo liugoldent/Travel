@@ -1,5 +1,5 @@
-// var w = $(window).width();
-// alert(w);
+var w = $(window).width();
+alert(w);
 // var widths = document.body.clientWidth;
 // alert(widths);
 //alert(width);
