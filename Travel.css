@@ -357,6 +357,7 @@ body #section5{
     background-attachment:fixed;
     background-position: center;
     height: 400px;
+    width:auto;
 }
 
 #section5_text{
