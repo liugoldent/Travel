@@ -1,5 +1,5 @@
 var w = $(window).width();
-console.log(w);
+alert(w);
 //var width = document.body.clientWidth;
 //console.log(width);
 //alert(width);
