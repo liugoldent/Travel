@@ -30,7 +30,6 @@ button{
 /*  Day1 Desgin 第一個內容區背景 */
 body #DAY1{
     background-image:url(https://i.imgur.com/9JrzixPh.jpg);
-    background-color: color;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -91,7 +90,7 @@ div.col-12,div.col-sm-12,div.col-md-12,div.col-lg-12,div.col-xl-12 {
 /*  Day2 Desgin 第一個內容區背景 */
 body #DAY2{
     /* background-image:url(https://i.imgur.com/xlzJRL0h.jpg); */
-    background-color: color;
+    background-color: white;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -143,7 +142,7 @@ body button#Day2Control{
 /*  Day3 Desgin 第一個內容區背景 */
 body #DAY3{
     /* background-image:url(https://i.imgur.com/lLoKVKqh.jpg); */
-    background-color: color;
+    background-color: white;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -195,7 +194,7 @@ body button#Day3Control{
 /*  Day4 Desgin 第一個內容區背景 */
 body #DAY4{
     /* background-image:url(https://i.imgur.com/Z7B0B2sh.jpg); */
-    background-color: color;
+    background-color: white;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -245,7 +244,7 @@ body button#Day4Control{
 /*  Day5 Desgin 第一個內容區背景 */
 body #DAY5{
     /* background-image:url(https://i.imgur.com/KV5pD2Ah.jpg); */
-    background-color: color;
+    background-color: white;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -309,7 +308,7 @@ button#OSAKABut{
 
 body #DAY6{
     /* background-image:url(https://i.imgur.com/pDbrLGVh.jpg); */
-    background-color: color;
+    background-color: white;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -355,6 +354,7 @@ body button#Day6Control,button#KYOTOBut{
 }
 
 /* Day6  內容*/
+/*以下是連絡我資訊*/
 
 body #section5{
     background-image:url(https://i.imgur.com/WiHcgRVh.jpg);
