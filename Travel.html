@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./Travel.css"> 
+    <link rel="stylesheet" type="text/css" href="./style/Travel.css"> 
     <title> Travel Guide </title>
 
 <!-- 新 Bootstrap4 核心 CSS 文件 -->
@@ -16,14 +16,19 @@
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <!-- for latest icon -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-
+<link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
 </head>
         
 <body>
 <div class='container-fluid' id='all'>
+    <div id='ForBgExtend' style="display:none"></div>
+    <div id='ForControlShowOrNot' style="display:none"></div>
+    <div id='ForBgText' style="display:none"></div>
+    <div id='ForBigMapShow' style="display:none"></div>
+    <div id='ForIFrameMap' style="display:none"></div>
+
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id='navtitle'> 
-                <a class="navbar-brand" href="" style="font-family:serif">Travel Guide</a>
+                <a class="navbar-brand" href="">Travel Guide</a><br>
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                         <button id="KYOTOBut" v-on:click="OpenKyotoContent"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -34,10 +39,10 @@
                         <a class="dropdown-item" href="#DAY3">DAY3</a>
                         <a class="dropdown-item" href="#DAY4">DAY4</a>
                         <a class="dropdown-item" href="#DAY5">DAY5</a>
-
                 </div>
-                            </button>
+                        </button>
                 </li>
+
                 <li class="nav-item">
                     <button id="OSAKABut" v-on:click="OpenOsakaContent"><a class="nav-link" id="OSAKA">OSAKA</a></button>
                 </li>
@@ -51,8 +56,6 @@
                 <h1>Check In</h1>
                 <br><br><br>
                 <button id="Day1Control" v-on:click="DisplayOpen"><i class="fas fa-map-marker-alt fa-5x"></i></button>
-
-
             </div>
     </div>
 
@@ -216,8 +219,6 @@
         <h1>Yasaka-Jinja</h1>
         <br><br><br>
         <button id="Day5Control" v-on:click="DisplayOpen"><i class="fas fa-map-marker-alt fa-5x"></i></button>
-
-
     </div>
 </div>
 
@@ -321,7 +322,7 @@
     <!--Contact Me -->
     <div id="section5">
             <div id="section5_text">
-                        <h1>Contact Me</h1>
+                        <p>Contact Me</p>
                         <br>
             </div>
             <div id="section5_icon">
@@ -334,7 +335,7 @@
     </div>
 
    
-    <footer id="foorter">
+    <footer id="footer">
         <div id="copyright">
             <p>Copyright ©   Guan-Ting Liu   All rights reserved.</p>
         </div>

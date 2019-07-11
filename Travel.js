@@ -1,17 +1,78 @@
 var w = $(window).width();
-alert(w);
+var titleHeight = $('#navtitle').height();
+//console.log(titleHeight);
+var Day1TextTop = titleHeight+50;
+//console.log(w);
 // var widths = document.body.clientWidth;
 // alert(widths);
 //alert(width);
 $('.row').css('width',w);
 
 var RWDImg= (w-50);
-console.log(RWDImg)
+//console.log(RWDImg)
+if(w>1100){
+    var font_size='105px';
+    $('#Day1Text>h1').css('font-size', font_size);
+    $('#Day2Text>h1').css('font-size', font_size);
+    $('#Day3Text>h1').css('font-size', font_size);
+    $('#Day4Text>h1').css('font-size', font_size);
+    $('#Day5Text>h1').css('font-size', font_size);
+    $('#Day6Text>h1').css('font-size', font_size);
+
+}else if(1000<w && w<=1100){
+    var font_size = '95px';
+    $('#Day1Text>h1').css('font-size', font_size);
+    $('#Day2Text>h1').css('font-size', font_size);
+    $('#Day3Text>h1').css('font-size', font_size);
+    $('#Day4Text>h1').css('font-size', font_size);
+    $('#Day5Text>h1').css('font-size', font_size);
+    $('#Day6Text>h1').css('font-size', font_size);
+} else if (900 < w && w <= 1000) {
+    var font_size = '85px';
+    $('#Day1Text>h1').css('font-size', font_size);
+    $('#Day2Text>h1').css('font-size', font_size);
+    $('#Day3Text>h1').css('font-size', font_size);
+    $('#Day4Text>h1').css('font-size', font_size);
+    $('#Day5Text>h1').css('font-size', font_size);
+    $('#Day6Text>h1').css('font-size', font_size);
+} else if (800 < w && w <= 900) {
+    var font_size = '75px';
+    $('#Day1Text>h1').css('font-size', font_size);
+    $('#Day2Text>h1').css('font-size', font_size);
+    $('#Day3Text>h1').css('font-size', font_size);
+    $('#Day4Text>h1').css('font-size', font_size);
+    $('#Day5Text>h1').css('font-size', font_size);
+    $('#Day6Text>h1').css('font-size', font_size);
+} else if (700 < w && w <= 800) {
+    var font_size = '65px';
+    $('#Day1Text>h1').css('font-size', font_size);
+    $('#Day2Text>h1').css('font-size', font_size);
+    $('#Day3Text>h1').css('font-size', font_size);
+    $('#Day4Text>h1').css('font-size', font_size);
+    $('#Day5Text>h1').css('font-size', font_size);
+    $('#Day6Text>h1').css('font-size', font_size);
+} else if (600 < w && w <= 700) {
+    var font_size = '55px';
+    $('#Day1Text>h1').css('font-size', font_size);
+    $('#Day2Text>h1').css('font-size', font_size);
+    $('#Day3Text>h1').css('font-size', font_size);
+    $('#Day4Text>h1').css('font-size', font_size);
+    $('#Day5Text>h1').css('font-size', font_size);
+    $('#Day6Text>h1').css('font-size', font_size);
+} else if (w<600) {
+    var font_size = '45px';
+    $('#Day1Text>h1').css('font-size', font_size);
+    $('#Day2Text>h1').css('font-size', font_size);
+    $('#Day3Text>h1').css('font-size', font_size);
+    $('#Day4Text>h1').css('font-size', font_size);
+    $('#Day5Text>h1').css('font-size', font_size);
+    $('#Day6Text>h1').css('font-size', font_size);
+    $('#Day1Text').css('top', Day1TextTop);
+};
+
 if(w<750){
     $('img').css('width', RWDImg)
     $('iframe').css('width', RWDImg)
-}else if (w==980){
-    $('#section5').css('width',w)
 }
 
 var OpenKyoto=new Vue({
@@ -19,11 +80,11 @@ var OpenKyoto=new Vue({
     data:{},
     methods:{
         OpenKyotoContent:function(){
-            $("#DAY1").css("display","block");
-            $("#DAY2").css("display","block");
-            $("#DAY3").css("display","block");
-            $("#DAY4").css("display","block");
-            $("#DAY5").css("display","block");
+            $("#DAY1").css("display", "block");
+            $("#DAY2").css("display", "block");
+            $("#DAY3").css("display", "block");
+            $("#DAY4").css("display", "block");
+            $("#DAY5").css("display", "block");
             $("#OSAKACont").css("display","none");
         }
     }

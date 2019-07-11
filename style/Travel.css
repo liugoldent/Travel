@@ -1,0 +1,262 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  border: none;
+  scroll-behavior: smooth;
+}
+
+#all {
+  padding: 0px;
+}
+
+nav#navtitle {
+  padding: 0px;
+  margin: 0px 0px;
+  border: 0px;
+  font-family: 'DM Serif Display', serif;
+}
+
+nav * {
+  font-size: 40px;
+}
+
+a.navbar-brand {
+  padding-left: 15px;
+  font-size: 40px;
+}
+
+div.row {
+  margin: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#ForBgExtend, body #DAY1, body #DAY2, body #DAY3, body #DAY4, body #DAY5, body #DAY6, body #section5 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  width: auto;
+}
+
+#ForControlShowOrNot, button#KYOTOBut, button#OSAKABut, body button#Day1Control, body button#Day2Control, body button#Day3Control, body button#Day4Control, body button#Day5Control, body button#Day6Control {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+#ForBgText, #Day1Text, #Day2Text, #Day3Text, #Day4Text, #Day5Text, #Day6Text {
+  text-align: center;
+  top: 200px;
+  position: relative;
+  margin: 0px auto;
+  font-family: 'DM Serif Display', serif;
+}
+
+#ForBigMapShow, #day1map, #day2map, #day3map, #day4map, #day5map, #day6map {
+  background-color: white;
+  text-align: center;
+  height: auto;
+  width: auto;
+  display: none;
+  font-family: 'DM Serif Display', serif;
+}
+
+#ForIFrameMap, .Day1iframeMap, .Day2iframeMap, .Day3iframeMap, .Day4iframeMap, .Day5iframeMap, .Day6iframeMap {
+  width: 700px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+/*  Day1 Design 第一個內容區背景 */
+button#KYOTOBut, button#OSAKABut {
+  padding-left: 15px;
+}
+
+body #DAY1 {
+  background-image: url(../fig/DSC_1683.jpg);
+}
+
+/*  Day1 Design 第一天的圖片上內容 */
+#Day1Text {
+  color: antiquewhite;
+}
+
+#Day1Text i {
+  color: white;
+}
+
+/*  Day1 Design 第一天的地圖 */
+div.col-12, div.col-sm-12, div.col-md-12, div.col-lg-12, div.col-xl-12 {
+  padding: 0px;
+}
+
+.col-12, .col-sm-12, .col-md-12, .col-lg-12, .col-xl-12 * {
+  position: relative;
+  margin: 0px auto;
+}
+
+.Day1IMG {
+  border-radius: 10px;
+}
+
+/* Day 1  內容*/
+/*  Day2 Design 第一個內容區背景 */
+body #DAY2 {
+  background-image: url(../fig/DSC_1743.jpg);
+}
+
+/*  Day2 Design 第一天的圖片上內容 */
+#Day2Text {
+  color: black;
+}
+
+#Day2Text i {
+  color: black;
+}
+
+/*  Day2 Design 第一天的地圖 */
+.Day2IMG {
+  border-radius: 10px;
+}
+
+/* Day 2  內容*/
+/*  Day3 Design 第一個內容區背景 */
+body #DAY3 {
+  background-image: url(../fig/DSC_1933.jpg);
+}
+
+/*  Day3 Design 第一天的圖片上內容 */
+#Day3Text {
+  color: antiquewhite;
+}
+
+#Day3Text i {
+  color: whitesmoke;
+}
+
+/*  Day3 Design 第一天的地圖 */
+.Day3IMG {
+  border-radius: 10px;
+}
+
+/* Day3  內容*/
+/*  Day4 Design 第一個內容區背景 */
+body #DAY4 {
+  background-image: url(../fig/DSC_2016.jpg);
+}
+
+/*  Day4 Design 第四天的圖片上內容 */
+#Day4Text {
+  color: black;
+}
+
+#Day4Text i {
+  color: black;
+}
+
+/*  Day4 Design 第一天的地圖 */
+.Day4IMG {
+  border-radius: 10px;
+}
+
+/* Day4  內容*/
+/*  Day5 Design 第一個內容區背景 */
+body #DAY5 {
+  background-image: url(../fig/DSC_2217.jpg);
+}
+
+/*  Day5 Design 第四天的圖片上內容 */
+#Day5Text {
+  color: antiquewhite;
+}
+
+#Day5Text i {
+  color: white;
+}
+
+/*  Day5 Design 第一天的地圖 */
+.Day5IMG {
+  border-radius: 10px;
+}
+
+/* Day5  內容*/
+/*  Day6 <OSAKA> Design 第一個內容區背景 */
+#OSAKACont {
+  display: none;
+}
+
+body #DAY6 {
+  background-image: url(../fig/DSC_2403.jpg);
+}
+
+/*  Day6 Design 第四天的圖片上內容 */
+#Day6Text {
+  color: black;
+}
+
+#Day6Text i {
+  color: black;
+}
+
+/*  Day5 Design 第一天的地圖 */
+.Day6IMG {
+  border-radius: 10px;
+}
+
+/* Day6  內容*/
+/*以下是連絡我資訊*/
+body #section5 {
+  background-image: url(../fig/DSC_2000.jpg);
+  height: 400px;
+  font-family: 'DM Serif Display', serif;
+}
+
+#section5_text p {
+  font-size: 35px;
+}
+
+#section5_text {
+  position: relative;
+  margin: 0px auto;
+  color: antiquewhite;
+  text-align: center;
+  top: 25%;
+  word-spacing: 10px;
+}
+
+#section5_icon {
+  position: relative;
+  margin: 0px;
+  color: antiquewhite;
+  text-align: center;
+  top: 25%;
+  word-spacing: 10px;
+}
+
+#footer {
+  background-color: black;
+  height: 100px;
+  max-width: 100%;
+  position: relative;
+  margin: 0px auto;
+  color: antiquewhite;
+  text-align: center;
+}
+
+#copyright {
+  font-family: 'DM Serif Display', serif;
+  position: relative;
+  top: 30%;
+}
+
+#section5_icon *:hover {
+  color: peachpuff;
+}
+/*# sourceMappingURL=Travel.css.map */

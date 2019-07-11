@@ -1,0 +1,338 @@
+$titleSize:40px;
+$BgText:105px;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  border: none;
+  scroll-behavior: smooth;
+}
+
+
+#all{
+    padding:0px;
+}
+nav#navtitle{
+    padding:0px;
+    margin:0px 0px;
+    border:0px;
+    font-family: 'DM Serif Display', serif;
+}
+nav *{
+  font-size:$titleSize;
+}
+a.navbar-brand{
+  padding-left:15px;
+  font-size:$titleSize;
+}
+
+div.row{
+    margin:0px;
+}
+
+button{
+    cursor: pointer;
+}
+
+// Extend區域
+
+#ForBgExtend{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+}
+#ForControlShowOrNot{
+    background-color: transparent;
+    outline: none;
+    border:none;
+}
+#ForBgText{
+    text-align:center;
+    top:200px;
+    position:relative;
+    margin:0px auto;
+    font-family: 'DM Serif Display', serif;
+}
+#ForBigMapShow{
+    background-color: white;
+    text-align: center;
+    height:auto;
+    width:auto;
+    display:none;
+    font-family: 'DM Serif Display', serif;
+}
+#ForIFrameMap{
+    width:700px;
+    height:450px;
+    border-radius: 10px;
+}
+// Extend區域
+
+
+/*  Day1 Design 第一個內容區背景 */
+
+button#KYOTOBut,button#OSAKABut{
+    padding-left:15px;
+    @extend #ForControlShowOrNot;
+}
+body #DAY1{
+    background-image:url(../fig/DSC_1683.jpg);
+    @extend #ForBgExtend;
+}
+body button#Day1Control{
+    @extend #ForControlShowOrNot;
+}
+/*  Day1 Design 第一天的圖片上內容 */
+#Day1Text{
+    @extend #ForBgText;
+    color:antiquewhite;
+}
+
+#Day1Text i{
+    color:white;
+}
+/*  Day1 Design 第一天的地圖 */
+#day1map{
+    @extend #ForBigMapShow
+}
+
+div.col-12,div.col-sm-12,div.col-md-12,div.col-lg-12,div.col-xl-12 {
+    padding:0px;
+}
+
+.col-12,.col-sm-12,.col-md-12,.col-lg-12,.col-xl-12 *{
+    position: relative;
+    margin:0px auto;
+}
+.Day1iframeMap{
+    @extend #ForIFrameMap;
+}
+
+.Day1IMG{
+    border-radius: 10px;
+}
+
+/* Day 1  內容*/
+
+
+/*  Day2 Design 第一個內容區背景 */
+body #DAY2{
+    background-image:url(../fig/DSC_1743.jpg);
+    @extend #ForBgExtend;
+}
+body button#Day2Control{
+    @extend #ForControlShowOrNot;
+}
+
+/*  Day2 Design 第一天的圖片上內容 */
+#Day2Text{
+    @extend #ForBgText;
+    color:black;
+}
+
+#Day2Text i{
+    color:black;
+}
+/*  Day2 Design 第一天的地圖 */
+#day2map{
+    @extend #ForBigMapShow;
+}
+
+
+.Day2iframeMap{
+    @extend #ForIFrameMap;
+}
+
+.Day2IMG{
+    border-radius: 10px;
+}
+
+/* Day 2  內容*/
+
+
+/*  Day3 Design 第一個內容區背景 */
+body #DAY3{
+    background-image:url(../fig/DSC_1933.jpg);
+    @extend #ForBgExtend;
+}
+body button#Day3Control{
+    @extend #ForControlShowOrNot;
+}
+/*  Day3 Design 第一天的圖片上內容 */
+#Day3Text{
+    @extend #ForBgText;
+    color:antiquewhite;
+}
+
+#Day3Text i{
+    color:whitesmoke;
+}
+/*  Day3 Design 第一天的地圖 */
+#day3map{
+    @extend #ForBigMapShow;
+}
+
+
+.Day3iframeMap{
+    @extend #ForIFrameMap;
+}
+
+.Day3IMG{
+    border-radius: 10px;
+}
+
+/* Day3  內容*/
+
+
+/*  Day4 Design 第一個內容區背景 */
+body #DAY4{
+    background-image:url(../fig/DSC_2016.jpg);
+    @extend #ForBgExtend;
+}
+body button#Day4Control{
+    @extend #ForControlShowOrNot;
+}
+/*  Day4 Design 第四天的圖片上內容 */
+#Day4Text{
+    @extend #ForBgText;
+    color:black;
+}
+
+#Day4Text i{
+    color:black;
+}
+/*  Day4 Design 第一天的地圖 */
+#day4map{
+    @extend #ForBigMapShow;
+}
+
+
+.Day4iframeMap{
+    @extend #ForIFrameMap;
+}
+
+.Day4IMG{
+    border-radius: 10px;
+}
+
+/* Day4  內容*/
+
+/*  Day5 Design 第一個內容區背景 */
+body #DAY5{
+    background-image:url(../fig/DSC_2217.jpg);
+    @extend #ForBgExtend;
+}
+body button#Day5Control{
+    @extend #ForControlShowOrNot;
+}
+/*  Day5 Design 第四天的圖片上內容 */
+#Day5Text{
+    @extend #ForBgText;
+    color:antiquewhite;
+}
+#Day5Text i{
+    color:white;
+}
+/*  Day5 Design 第一天的地圖 */
+#day5map{
+    @extend #ForBigMapShow;
+}
+
+
+.Day5iframeMap{
+    @extend #ForIFrameMap;
+}
+
+.Day5IMG{
+    border-radius: 10px;
+}
+
+/* Day5  內容*/
+
+
+
+
+/*  Day6 <OSAKA> Design 第一個內容區背景 */
+#OSAKACont{
+    display: none;
+}
+
+body #DAY6{
+    background-image:url(../fig/DSC_2403.jpg);
+    @extend #ForBgExtend;
+}
+body button#Day6Control{
+    @extend #ForControlShowOrNot;
+}
+/*  Day6 Design 第四天的圖片上內容 */
+#Day6Text{
+    @extend #ForBgText;
+    color:black;
+}
+
+#Day6Text i{
+    color:black;
+}
+/*  Day5 Design 第一天的地圖 */
+#day6map{
+    @extend #ForBigMapShow;
+}
+.Day6iframeMap{
+    @extend #ForIFrameMap;
+}
+
+.Day6IMG{
+    border-radius: 10px;
+}
+
+/* Day6  內容*/
+/*以下是連絡我資訊*/
+
+body #section5{
+    background-image:url(../fig/DSC_2000.jpg);
+    @extend #ForBgExtend;
+    height: 400px;
+    font-family: 'DM Serif Display', serif;
+}
+#section5_text p{
+  font-size:35px;
+}
+#section5_text{
+    position:relative;
+    margin:0px auto;
+    color:antiquewhite;
+    text-align:center;
+    top:25%;
+    word-spacing:10px;
+}
+
+#section5_icon{
+    position:relative;
+    margin:0px;
+    color:antiquewhite;
+    text-align:center;
+    top:25%;
+    word-spacing:10px;
+}
+#footer{
+    background-color:black;
+    height:100px;
+    max-width: 100%;
+    position:relative;
+    margin:0px auto;
+    color:antiquewhite;
+    text-align:center;
+}
+#copyright{
+    font-family: 'DM Serif Display', serif;
+    position:relative;
+    top:30%;
+}
+#section5_icon *:hover{
+    color:peachpuff;
+}
